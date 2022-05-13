@@ -27,6 +27,33 @@ Logic Operations:
 5-	Right Shift Operation.
 6-	Complement.
 Extra Operation is Converting from Floating to decimal. 
+Selection of operation can be performed by setting the operation input.
+
+operation[3:0]
+  
+0001    =>   Multiplication
+  
+0010    =>   Division
+  
+0011    =>   Substraction
+
+0100    =>   OR
+  
+0101    =>   AND
+  
+0110    =>   XOR
+  
+0111    =>   Left Shift
+
+1000    =>   Right Shift
+  
+1001    =>   Conversion
+  
+1010    =>   Addition
+  
+1011    =>   Complement
+
+
 
 TESTING METHOD
 
