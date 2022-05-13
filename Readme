@@ -54,7 +54,7 @@ operation[3:0]
 1011    =>   Complement
 
 ![Block Diagram]{https://github.com/Teslagit4/Floating-Point-ALU-in-Verilog/blob/master/github1.PNG}
-
+<img src="./github1.PNG">
 TESTING METHOD
 
 The algorithms of addition, subtraction and multiplication has been designed on Verilog HDL and design is synthesizable. These designs have to be verified for all cases to check for proper functionality. The testing has been done on ModelSim platform and performed in two methods:
