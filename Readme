@@ -53,6 +53,10 @@ operation[3:0]
   
 1011    =>   Complement
 
+Additional outputs are Exception, Overflow and Underflow;
+Exception is set when atleast one of the input is infinity or NotANumber.
+Overflow is checked during the multiplication operation, if overall exponent is greater than 255 then Overflow condition.
+
 TESTING METHOD
 
 The algorithms of addition, subtraction and multiplication has been designed on Verilog HDL and design is synthesizable. These designs have to be verified for all cases to check for proper functionality. The testing has been done on ModelSim platform and performed in two methods:
